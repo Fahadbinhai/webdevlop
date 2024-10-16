@@ -3,13 +3,17 @@
     
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .ol{
     display: flex;
     align-items: center;
 }
+/* header related style*/
+.headerstyle{
+    background-color: #FFF8F3;
 
-
+}
 nav li{
     list-style: none;
     margin-right: 50px;
@@ -23,9 +27,25 @@ nav a{
     border: none;
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 18px 35px 19px 36px;
 }
 .span{
     color: #FD6E0A;
+}
+
+/* style for banner */
+
+.banner{
+    padding: 230px 0px 0px 250px;
+    display: flex;
+    align-items: center;
+}
+picture{
+    height: 584px;
+    width: 676px;
+}
+
+.para{
+    padding-bottom: 5px;
 }
