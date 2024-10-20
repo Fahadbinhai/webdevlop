@@ -79,3 +79,19 @@ picture{
     font size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info-title{
+    text-align: center;
+}
+.about-info-descriptaion{
+    text-align: center;
+
+}
