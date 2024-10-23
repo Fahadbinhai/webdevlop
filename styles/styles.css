@@ -1,27 +1,32 @@
-.primaryhead{
+.primaryhead {
     display: flex;
-    
+
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.ol{
+
+.ol {
     display: flex;
     align-items: center;
 }
+
 /* header related style*/
-.headerstyle{
+.headerstyle {
     background-color: #FFF8F3;
-       
+
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
-.btn{
+
+.btn {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
@@ -31,40 +36,44 @@ nav a{
     padding: 18px 35px 19px 36px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.span{
+
+.span {
     color: #FD6E0A;
 }
 
 /* style for banner */
 
-.banner{
+.banner {
     padding: 230px 0px 0px 250px;
     display: flex;
     align-items: center;
 
 }
-picture{
+
+picture {
     height: 584px;
     width: 676px;
 }
-.para head{
+
+.para head {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.para{
+
+.para {
     padding-bottom: 5px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Design of main part */
 
-.about{
-    padding: 130px ;
+.about {
+    padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 130px 0 ;
+    margin: 130px 0;
 }
 
-.title-class{
+.title-class {
     text-align: center;
     color: #181818;
     font-size: 35px;
@@ -72,7 +81,7 @@ picture{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.text{
+.text {
 
     color: #757575;
     text-align: center;
@@ -80,18 +89,59 @@ picture{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
-.about-info-container{
+
+main section{
+    margin-top: 130px;
+}
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info-title{
+
+.about-info-title {
     text-align: center;
 }
-.about-info-descriptaion{
+
+.about-info-descriptaion {
     text-align: center;
 
+}
+
+.what-i-do {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+#paragraph-for-what-i-do {
+    padding: 30px 130px;
+}
+
+/* skill section */
+.all-skill-style {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill-per-div {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.edu-job-containar{
+    
+}
+
+.education-details{
+    border-bottom: solid gray;
+}
+.job-details{
+    border-bottom: solid gray;
 }
